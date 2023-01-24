@@ -2,10 +2,19 @@
 
 /* display: flex - allows us to use flexbox as a tool */
 header {
-    text-align: center;
+    font-family: "Open Sans";
     color: white;
     background-color: #004175;
     border-bottom: 2px solid #89DEEF;
     padding: 1px;
     /* can i make this shorter top to bottom? */
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+h2 {
+    font-family: Open Sans;
+    padding-left: 15px;
 }
