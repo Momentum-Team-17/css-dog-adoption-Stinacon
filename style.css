@@ -18,3 +18,15 @@ h2 {
     font-family: Open Sans;
     padding-left: 15px;
 }
+
+
+
+
+/* want traits to appear inline */
+ul {
+    display: inline;
+}
+
+img {
+    width: 30%;
+}
