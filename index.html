@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet" />
-    <!-- Do we also have to specify the fonts somewhere? -->
+    <!-- For how many/which selectors do we need to specify fonts, and both or just one? -->
 </head>
 
 <body>
@@ -19,114 +19,117 @@
         <h2>Adopt a Dog</h2>
         <p>If you are interested in adopting one of our animals, please fill out our <a href="#">online adoption
                 form.</a></p>
-        <article class="dog">
-            <img class="beans" alt=terrier
-                src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/beans.jpg" />
-            <h3>Beans</h3>
-            <ul class="traits">
-                <li>Adult</li>
-                <li>Male</li>
-                <li>Medium</li>
-                <li>Easygoing</li>
-                <li>Good with Cats</li>
-            </ul>
-        </article>
+        <section>
+            <article class="dogs1-3">
+                <img class="beans" alt=terrier
+                    src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/beans.jpg" />
+                <h3>Beans</h3>
+                <div style="list-style: none" class="traits">
+                    <span>Adult</span>
+                    <span>Male</span>
+                    <span>Medium</span>
+                    <span>Easygoing</span>
+                    <span>Good with Cats</span>
+                </div>
 
-        <article class="dog">
-            <img
-                src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/boston-terrier.jpg" />
-            <h3>Zelda</h3>
-            <ul class="traits">
-                <li>Senior</li>
-                <li>Female</li>
-                <li>Small</li>
-                <li>Easygoing</li>
-                <li>Good with Kids</li>
-                <li>Good with other dogs</li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img src="" />
-            <h3>Baby</h3>
-            <ul class="traits">
-                <li>Young</li>
-                <li>Female</li>
-                <li>Large</li>
-                <li>Energetic</li>
-                <li>Good with Kids</li>
-                <li>Good with other dogs</li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img />
-            <h3>Tom-Tom</h3>
-            <ul class="traits">
-                <li>Young</li>
-                <li>Male</li>
-                <li>Large</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img />
-            <h3>Marco</h3>
-            <ul class="traits">
-                <li>Adult</li>
-                <li>Male</li>
-                <li>Small</li>
-                <li>Energetic</li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img />
-            <h3>Shackleton</h3>
-            <ul class="traits">
-                <li>Adult</li>
-                <li>Male</li>
-                <li>Medium</li>
-                <li>Easygoing</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img />
-            <h3>Midge</h3>
-            <ul class="traits">
-                <li>Adult</li>
-                <li>Female</li>
-                <li>Small</li>
-                <li>Easygoing</li>
-                <li>Good with kids</li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img />
-            <h3>Ladybird</h3>
-            <ul class="traits">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </article>
-        <article class="dog">
-            <img />
-            <h3>Mina</h3>
-            <ul class="traits">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </article>
+
+                <img
+                    src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/boston-terrier.jpg" />
+                <h3>Zelda</h3>
+                <div class="traits">
+                    <span>Senior</span>
+                    <span>Female</span>
+                    <span>Small</span>
+                    <span>Easygoing</span>
+                    <span>Good with Kids</span>
+                    <span>Good with other dogs</span>
+                </div>
+
+                <img
+                    src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/boxer.jpg" />
+                <h3>Baby</h3>
+                <div class="traits">
+                    <span>Young</span>
+                    <span>Female</span>
+                    <span>Large</span>
+                    <span>Energetic</span>
+                    <span>Good with Kids</span>
+                    <span>Good with other dogs</span>
+                </div>
+            </article>
+            <article class="dog">
+                <img
+                    src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/golden-lab.jpg" />
+                <h3>Tom-Tom</h3>
+                <div class="traits">
+                    <span>Young</span>
+                    <span>Male</span>
+                    <span>Large</span>
+                    <span>Energetic</span>
+                    <span>Good with kids</span>
+                    <span>Good with other dogs</span>
+                    <span>Good with cats</span>
+                </div>
+            </article>
+            <article class="dog">
+                <img
+                    src="/Users/stina/Desktop/momentumclasshmwrk/css-dog-adoption-Stinacon/starter_files/images/little-dog.jpg" />
+                <h3>Marco</h3>
+                <div class="traits">
+                    <span>Adult</span>
+                    <span>Male</span>
+                    <span>Small</span>
+                    <span>Energetic</span>
+                </div>
+            </article>
+            <article class="dog">
+                <img />
+                <h3>Shackleton</h3>
+                <div class="traits">
+                    <span>Adult</span>
+                    <span>Male</span>
+                    <span>Medium</span>
+                    <span>Easygoing</span>
+                    <span>Energetic</span>
+                    <span>Good with kids</span>
+                    <span>Good with other dogs</span>
+                    <span>Good with cats</span>
+                </div>
+            </article>
+            <article class="dog">
+                <img />
+                <h3>Midge</h3>
+                <div>
+                    <span>Adult</span>
+                    <span>Female</span>
+                    <span>Small</span>
+                    <span>Easygoing</span>
+                    <span>Good with kids</span>
+                </div>
+            </article>
+            <article>
+                <img />
+                <h3>Ladybird</h3>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </article>
+            <article>
+                <img />
+                <h3>Mina</h3>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
 
