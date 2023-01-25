@@ -1,14 +1,24 @@
 /* to horizontally center - margin: 0 auto */
 
 /* display: flex - allows us to use flexbox as a tool */
+* {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
 header {
     width: 100%;
-    font-family: "Open Sans";
+    font-family: Open Sans;
     color: white;
     background-color: #004175;
     border-bottom: 2px solid #89DEEF;
     padding: 1px;
     /* can i make this shorter top to bottom? */
+}
+
+main {
+    padding-left: 15px;
 }
 
 h1 {
@@ -17,21 +27,15 @@ h1 {
 
 h2 {
     font-family: Open Sans;
-    padding-left: 15px;
+    /* padding-left: 15px; */
+}
+
+p {
+    font-family: Open Sans;
 }
 
 
-/* article.dogs1-3 {
-    display: flex;
-    flex-wrap: wrap; */
-
-
-/* want traits to appear inline */
-/* ul {
-    display: inline; */
-
 #all-dogs {
-    border: 2px solid red;
     /* the border is just so I can see what it's doing while I futz */
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +43,7 @@ h2 {
 }
 
 .dog {
-
-    border: 2px solid orange;
-    width: 30%;
+    width: 32%;
     /* width: auto 0%; */
 }
 
@@ -49,25 +51,33 @@ img {
     width: 100%;
 }
 
+article h3 {
+    font-family: Oswald;
+}
+
 .traits {
+
     /* border: 2px solid orange; */
     display: flex;
     /* justify-content: space-between; */
     /* we chose flex-start to align the traits left rather than space them out across the page */
     justify-content: flex-start;
-    flex-wrap: wrap;
+    flex-flow: wrap;
 
 }
 
 
 .traits>span {
-    margin: 0 10px 5px 0px;
+    flex-flow: row nowrap;
+    font-size: small;
+    font-family: Open Sans;
+    margin-left: 1px;
     /* display: flex; */
     /* flex: flex-flow; */
     /* height: 5px; */
     border-radius: 30px;
 
-    padding: 10px;
+    padding: 5px;
     /* width: 10px; */
     background-color: aqua;
 }
