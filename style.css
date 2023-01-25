@@ -87,19 +87,24 @@ article h3 {
 
 nav {
     display: flex;
-    flex: 1 1 auto;
 }
 
 .container {
+    /* background-color: #A6A9F0; */
     width: 33%;
     position: relative;
     text-align: center;
     color: white;
 }
 
-    {}
+.container>img {
+    height: 100%;
+    object-fit: cover;
+}
 
 .link-text {
+    /* How do I change the font size? */
+    /* font-size: large; */
     position: absolute;
     top: 50%;
     left: 50%;
