@@ -30,18 +30,27 @@ h2 {
 /* ul {
     display: inline; */
 
-section {
+#all-dogs {
+    border: 2px solid red;
+    /* the border is just so I can see what it's doing while I futz */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-img {
-    width: 375px;
+.dog {
+
+    border: 2px solid orange;
+    width: 30%;
     /* width: auto 0%; */
 }
 
+img {
+    width: 100%;
+}
+
 .traits {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     display: flex;
     /* justify-content: space-between; */
     /* we chose flex-start to align the traits left rather than space them out across the page */
