@@ -1,15 +1,15 @@
 /* to horizontally center - margin: 0 auto */
 
 /* display: flex - allows us to use flexbox as a tool */
-* {
+/* * {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-}
+} */
 
 header {
     width: 100%;
-    font-family: Open Sans;
+    font-family: Open Sans, Oswald;
     color: white;
     background-color: #004175;
     border-bottom: 2px solid #89DEEF;
@@ -44,6 +44,7 @@ p {
 
 .dog {
     width: 32%;
+    margin-bottom: 20px;
     /* width: auto 0%; */
 }
 
@@ -53,10 +54,12 @@ img {
 
 article h3 {
     font-family: Oswald;
+    margin-top: 2px;
+    margin-bottom: 1px;
 }
 
 .traits {
-
+    margin-top: 1px;
     /* border: 2px solid orange; */
     display: flex;
     /* justify-content: space-between; */
@@ -79,9 +82,10 @@ article h3 {
 
     padding: 5px;
     /* width: 10px; */
-    background-color: aqua;
+    background-color: #89DEEF;
 }
 
 footer {
-    display: flex;
-}
+    box-sizing: border-box;
+    /* display: flex;
+} */
