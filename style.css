@@ -53,7 +53,7 @@ img {
 }
 
 article h3 {
-    font-family: Oswald;
+    font-family: Open Sans;
     margin-top: 2px;
     margin-bottom: 1px;
 }
@@ -71,6 +71,7 @@ article h3 {
 
 
 .traits>span {
+    font-weight: 500;
     flex-flow: row nowrap;
     font-size: small;
     font-family: Open Sans;
@@ -90,7 +91,7 @@ nav {
 }
 
 .container {
-    /* background-color: #A6A9F0; */
+    background-color: rgb(107, 111, 231);
     width: 33%;
     position: relative;
     text-align: center;
@@ -103,6 +104,7 @@ nav {
 }
 
 .link-text {
+    background-color: rgba(166, 169, 240, 0.4);
     font-weight: 500;
     font-family: Oswald;
     font-size: 2.5em;
