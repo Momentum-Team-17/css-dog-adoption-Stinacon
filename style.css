@@ -91,6 +91,7 @@ nav {
 }
 
 .container {
+    /* display: flex; */
     background-color: rgb(107, 111, 231);
     width: 33%;
     position: relative;
@@ -105,14 +106,16 @@ nav {
 }
 
 .link-text {
+    display: flex;
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     /* Making height 100% fills the footer with color, but changes position of text :( */
     background-color: rgba(166, 169, 240, 0.6);
     font-weight: 500;
     font-family: Oswald;
     font-size: 2.5em;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     /* How do I get "our location" to stay in-line? */
     position: absolute;
     top: 50%;
